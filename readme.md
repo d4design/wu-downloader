@@ -14,7 +14,7 @@ Go to this directory and run the command
 npm install
 ```
 
-## Development
+## Usage
 All functions are contained within wu-download.js.  The required information (Station ID, Start Date, Number of days required) is sent to the program as command line arguments in the format "stationID YYYY MM D N" where YYYY MM D is the start date and N is the number of days of data required. For example:
 
 ```sh
