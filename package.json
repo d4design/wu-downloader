@@ -1,0 +1,19 @@
+{
+  "name": "wu-downloader",
+  "version": "1.0.0",
+  "description": "Downloads 5min Data from Weather Underground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MD",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "puppeteer": "^2.0.0",
+    "remove-blank-lines": "^1.1.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "striptags": "^3.1.1"
+  }
+}
