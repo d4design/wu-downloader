@@ -1,4 +1,4 @@
-# Noise Logger
+# Weather Underground Downloader
 
 ## Introduction
 
