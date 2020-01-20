@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "async": "^3.1.0",
+    "make-dir": "^3.0.0",
     "puppeteer": "^2.0.0",
     "remove-blank-lines": "^1.1.1",
     "request": "^2.88.0",

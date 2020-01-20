@@ -1,8 +1,9 @@
 const rp = require('request-promise');
 const fs = require("fs");
 const async = require('async');
-var striptags = require('striptags');
+const striptags = require('striptags');
 const removeEmptyLines = require("remove-blank-lines");
+const makeDir = require('make-dir');
 
 // CMD format "node wu-download stationID YYYY MM D N" where YYY MM D is the start date of data you want, and N is the number of days you want.
 // eg. "node wu-download IDRIFF4 2019 12 17 5" gets data for 5 days from Dec 17 2019 from the station IDRIFF4.
@@ -14,6 +15,10 @@ var dayStart = parseInt(process.argv[5]);
 var numberOfDays = parseInt(process.argv[6]);
 
 var file = "WU-Weather " + stationID + " " + year + "-" + month + "-" + dayStart + ".csv";
+
+(async () => {
+    const path = await makeDir('results');
+})();
 
 function buildURL(day) {
   var sourceURL = "https://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=" + stationID +"&graphspan=day&month=" + month + "&day=" + day + "&year=" + year + "&format=1"
