@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This project allows a user to download weather data from a specified Weather Underground station to a CSV file in 5 minute intervals for a specified time period.  It relies on the Weather Underground API (for example) https://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IHUONVIL2&graphspan=day&month=12&day=1&year=2019&format=1
+This project allows a user to download weather data from a specified Weather Underground station to a CSV file in 5 minute intervals for a specified time period.
+
+It relies on the Weather Underground API (for example) https://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IHUONVIL2&graphspan=day&month=12&day=1&year=2019&format=1
 
 Find your desired Weather Station ID at https://www.wunderground.com/wundermap
 
