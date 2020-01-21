@@ -23,7 +23,7 @@ node wu-download IHUONVIL2 2019 12 1 5
 
 This will give you 5 days of data from 1st December 2019 from the station IHUONVIL2.
 
-The WeatherUnderground API also accepts dates such as 2019-12-40 as equal to 2020-01-09, therefore allowing the program to us 'number of days required' rather than a start and end date.  For example:
+The WeatherUnderground API also accepts dates such as 2019-12-40 as equal to 2020-01-09, therefore allowing the program to use 'number of days required' rather than a start and end date.  For example:
 
 ```sh
 node wu-download IHUONVIL2 2019 12 1 40
