@@ -35,6 +35,9 @@ async function saveData(url, day) {
   await rp(options)
       .then(function (htmlString) {
         csvData = removeEmptyLines(striptags(htmlString));
+        if (day > dayStart){
+          csvData = csvData.split("\n").slice(1).join("\n")   // remove headers for all but first day
+        }
         fs.appendFile('results/' + file, csvData, (err) => {
             if (err) throw err;
             console.log('Added data for day ' + day + ' to file: ' + file);
