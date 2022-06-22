@@ -9,7 +9,7 @@
   "author": "MD",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "make-dir": "^3.0.0",
     "puppeteer": "^2.0.0",
     "remove-blank-lines": "^1.1.1",
